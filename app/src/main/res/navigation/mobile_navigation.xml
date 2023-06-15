@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="org.d3if2129.assessment.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/home_fragment">
+        <action
+            android:id="@+id/action_home_to_detail"
+            app:destination="@+id/navigation_detail" />
+        <action
+            android:id="@+id/action_homeFragment_to_historiFragment"
+            app:destination="@id/historiFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_settingFragment"
+            app:destination="@id/navigation_setting" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_category"
+        android:name="org.d3if2129.assessment.ui.gallery.GalleryFragment"
+        android:label="@string/title_category"
+        tools:layout="@layout/gallery_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="org.d3if2129.assessment.ui.setting.SettingFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/setting_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_detail"
+        android:name="org.d3if2129.assessment.ui.DetailFragment"
+        android:label="@string/title_detail"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="namaDetail"
+            app:argType="string" />
+        <argument
+            android:name="imgDetail"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/historiFragment"
+        android:name="org.d3if2129.assessment.ui.histori.HistoriFragment"
+        android:label="@string/histori"
+        tools:layout="@layout/fragment_histori"/>
+</navigation>

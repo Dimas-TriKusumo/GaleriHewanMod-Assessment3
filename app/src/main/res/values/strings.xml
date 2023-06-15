@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Assessment</string>
+    <string name="result">HASIL PENCARIAN: %1$s</string>
+    <string name="kosong">HASIL TIDAK DITEMUKAN</string>
+    <string name="search">Nama hewan</string>
+    <string name="blank"> </string>
+    <string name="koneksi_error">Koneksi error</string>
+    <string name="message">%1$s diklik!</string>
+
+    <string name="title_home">Beranda</string>
+    <string name="title_category">Galeri</string>
+    <string name="title_settings">Pengaturan</string>
+    <string name="detail_hewan">Detail</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_detail">Detail</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="bagikan_template">Hewan: %1$s</string>
+
+    <string name="belum_ada_data">Belum ada data</string>
+    <string name="histori">Histori</string>
+    <string name="tentang_aplikasi">Tentang</string>
+    <string name="hasil_x">Hewan: %1$s</string>
+    <string name="data_x">Latin: %1$s</string>
+
+    <string name="hapus_histori">Hapus Histori</string>
+    <string name="konfirmasi_hapus">Hapus semua histori?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+
+    <string name="action_switch_layout">Ubah Layout</string>
+</resources>
